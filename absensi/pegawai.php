@@ -11,14 +11,14 @@ include "koneksi.php";
 </head>
 
 <body>
-<a href="index.php"><div class="navbar">Data Pegawai</div></a>
+<a href="index.php"><div class="navbar">Data Siswa</div></a>
 
 <div class="container">
 
 <div class="card">
-<h3>Tambah Pegawai</h3>
+<h3>Tambah Siswa</h3>
 <form method="POST">
-    <input type="text" name="nama" placeholder="Nama Pegawai" required>
+    <input type="text" name="nama" placeholder="Nama Siswa" required>
     <button type="submit" name="save">Simpan</button>
 </form>
 
@@ -31,7 +31,7 @@ if(isset($_POST['save'])){
 </div>
 
 <div class="card">
-<h3>List Pegawai</h3>
+<h3>List Siswa</h3>
 
 <table>
 <tr>

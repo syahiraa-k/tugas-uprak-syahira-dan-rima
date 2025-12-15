@@ -1,13 +1,13 @@
 body{
     font-family: Arial;
     margin:0;
-    background:#f4f6f9;
+    background:#F9FAFB;
 }
 
 .navbar{
-    background:#2d3436;
+    background:#1F2937;
     padding:15px;
-    color:white;
+    color:#FFFFFF;
     font-size:20px;
 }
 
@@ -18,7 +18,7 @@ body{
 }
 
 .card{
-    background:white;
+    background:rgb(255, 255, 255);
     padding:20px;
     border-radius:10px;
     margin-bottom:20px;
@@ -33,7 +33,20 @@ input, select{
     border:1px solid #ddd;
 }
 
+
 button, .btn{
+    padding:10px 15px;
+    background:#0D6EFD;
+    color:white;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    text-decoration:none;
+    
+    
+}
+
+.bttn{
     padding:10px 15px;
     background:#0984e3;
     color:white;
@@ -41,10 +54,23 @@ button, .btn{
     border-radius:10px;
     cursor:pointer;
     text-decoration:none;
+    
+    
+    display: block; 
+    margin-left: auto; 
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: fit-content; 
 }
 
 .btn-danger{
+    padding:10px 15px;
     background:#d63031;
+    color:white;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    text-decoration:none;
 }
 
 table{
@@ -58,5 +84,5 @@ table th, td{
 }
 
 table tr:hover{
-    background:#f1f1f1;
+    background:#bfc5d4;
 }

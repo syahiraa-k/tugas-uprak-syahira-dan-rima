@@ -16,7 +16,7 @@
             <input type="password" name="password" required>
             <button type="submit">Masuk</button>
         </form>
-        <p>belum punya akun?<a href="register.php">Register</a></p>
+        <p>belum punya akun? <a href="register.php">Register</a></p>
         
 
     </div>

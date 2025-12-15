@@ -16,7 +16,7 @@ include "koneksi.php";
 
 <div class="card">
 <form method="POST">
-    Pegawai:
+    Siswa:
     <select name="pegawai">
         <?php
         $pegawai=mysqli_query($koneksi,"SELECT * FROM pegawai");
